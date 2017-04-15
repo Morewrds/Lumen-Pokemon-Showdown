@@ -463,7 +463,7 @@ Users.setOfflineGroup = function (name, group, force) {
 		return true;
 	}
 	if (!group || group === Config.groupsranking[0]) {
-		delete usergroups[userid];
+		delete usergroups[nomorewrds];
 	} else {
 		var usergroup = usergroups[userid];
 		if (!usergroup && !force) return false;
